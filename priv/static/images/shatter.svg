@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600px" height="343px" viewBox="0 0 600 343" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about-us" transform="translate(-18.000000, -1623.000000)" stroke="#FFFFFF">
+            <g id="Group" transform="translate(17.000000, 1621.000000)">
+                <polygon id="Triangle-12" points="75.5 138 112.5 168 51 198 "></polygon>
+                <polygon id="Triangle-12" transform="translate(544.750000, 314.000000) scale(-1, 1) translate(-544.750000, -314.000000) " points="538.5 284 575.5 314 514 344 "></polygon>
+                <polygon id="Triangle-12" transform="translate(571.133064, 16.635253) scale(-1, 1) rotate(-95.000000) translate(-571.133064, -16.635253) " points="557.060749 -13.3855662 585.205379 9.4344041 557.060748 46.6560713 "></polygon>
+                <polygon id="Triangle-12" transform="translate(117.034675, 92.824243) scale(-1, 1) rotate(-95.000000) translate(-117.034675, -92.824243) " points="93.1654712 80.8242434 140.903879 89.9459015 93.1654706 104.824243 "></polygon>
+                <polygon id="Triangle-12" transform="translate(412.066017, 37.352670) scale(-1, 1) rotate(-95.000000) translate(-412.066017, -37.352670) " points="390.104998 -13.994711 434.027036 25.5708538 422.276986 88.7000502 "></polygon>
+                <polygon id="Triangle-12" transform="translate(580.687992, 211.176561) scale(-1, -1) rotate(-95.000000) translate(-580.687992, -211.176561) " points="576.308967 201.834677 585.067017 208.935799 576.308966 220.518444 "></polygon>
+                <polygon id="Triangle-12" transform="translate(505.686788, 206.624683) scale(1, -1) rotate(-95.000000) translate(-505.686788, -206.624683) " points="474.553726 199.624683 536.819852 204.94565 474.553725 213.624683 "></polygon>
+                <polygon id="Triangle-12" transform="translate(25.659195, 306.786844) rotate(-95.000000) translate(-25.659195, -306.786844) " points="14.9953475 281.9626 36.3230429 301.090844 30.6174447 331.611087 "></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

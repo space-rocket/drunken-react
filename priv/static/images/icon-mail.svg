@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contact" transform="translate(-116.000000, -336.000000)" stroke="#FFFFFF">
+            <g id="icon-mail" transform="translate(117.000000, 337.000000)">
+                <circle id="Oval-1" cx="26" cy="26" r="26"></circle>
+                <path d="M40.0195,33.7514 C40.0195,34.7174 39.2125,35.5004 38.2175,35.5004 L13.3025,35.5004 C12.3075,35.5004 11.4995,34.7174 11.4995,33.7514 L11.4995,18.5714 C11.4995,17.6054 12.3075,16.8224 13.3025,16.8224 L38.2175,16.8224 C39.2125,16.8224 40.0195,17.6054 40.0195,18.5714 L40.0195,33.7514 L40.0195,33.7514 Z" id="Stroke-1"></path>
+                <path d="M11.5,19.3852 L26.04,26.1612" id="Stroke-3"></path>
+                <path d="M25.7597,26.1611 L40.0197,19.3851" id="Stroke-5"></path>
+                <path d="M11.5,33.3374 L21.869,24.3124" id="Stroke-7"></path>
+                <path d="M29.6509,24.312 L40.0199,33.616" id="Stroke-9"></path>
+            </g>
+        </g>
+    </g>
+</svg>

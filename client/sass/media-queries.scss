@@ -1,0 +1,536 @@
+// ================================================================================
+// Media Queries Helpers                                                                         
+// ================================================================================
+// @import "media-queries-helpers.scss";
+// $screen-xs-max:  420px !default;                           
+// $screen-sm-min:  420px !default;
+// $screen-md-min:  720px !default;
+// $screen-lg-min:  960px !default;
+// max-width: $screen-xs-max                                   = green 320px
+// min-width: $screen-sm-min) and (max-width: $screen-sm-max   = pink 
+// min-width: $screen-md-min) and (max-width: $screen-md-max   = teal 
+// min-width: $screen-lg-min                                   = tomato 
+
+// ================================================================================
+//  Begin Media Queries                                                                             
+// ================================================================================
+@media (max-width: $screen-xs-max) {
+	// Typography
+	h1, .h1, {
+    font-size: 24px;
+	}
+	h2 {
+	    font-size: 18px;
+	}
+	h3, .h3 {
+	    font-size: 16px;
+	}
+	// }
+	// p {
+	// 	font-size: unset
+	// }
+	// Structure
+	//row
+	.row {
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	//col
+	[class*="col-"] {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	//main
+	main {
+	    margin-top: 0;
+	    padding-top: 80px;
+	}
+	body main.container {
+	    z-index: 2;
+	}
+	// header
+	.header-nav, section {
+	    z-index: 1;
+	}
+	//Home 
+	#cloud1 {
+	    left: 60%;
+	}
+	#cloud2 {
+	    left: 43%;
+	}
+	p.buttons {
+	    width: 280px;
+	}
+	.jumbotron h1, .jumbotron .h1 {
+	    font-size: 39px;
+	}
+
+	// About
+	// .carousel-indicators.vertical {
+	//     bottom: 0;
+	// }
+	.about-main-container .row.upper-row {
+	    margin-bottom: 0;
+	}
+	.about-main-container .row.flexbox.lower-row {
+	    padding-top: 0;
+	}
+	#what-we-do, #mission-statement {
+	    float: none;
+	    padding-left: 0;
+	    padding-right: 0;
+	    width: 100%;
+	}
+	.col-xs-4.service-icons {
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	.service-icons .thumbnail {
+	    background-size: 100% auto !important;
+	}
+	//Testimonials
+	.inner-left-side,
+	.inner-right-side,
+	#icons-collage-content {
+	    width: 100%;
+	}
+	.inner-right-side {
+	    padding-right: 70px !important;
+	}
+	.testimonials-main-container .inner-left-side {
+	    display: block;
+	    height: auto;
+	}
+	.testimonials-main-container .inner-left-side {
+	    background: #d82488 url("/icons-collage.svg") repeat scroll center center / 658px 647px;
+	    display: block;
+	    height: auto;
+	    margin: 0;
+	    width: 100%;
+	}
+	.flex-full-width {
+	    display: none;
+	}
+	.container.absolute {
+	    display: block;
+	    height: auto;
+	    margin-top: 0;
+	    padding-left: 0;
+	    padding-right: 0;
+	    padding-top: 0;
+	    position: relative;
+	    top: unset;
+	}
+	#quote-left,
+	#quote-right {
+	    position: relative;
+	}
+	#quote-right {
+	    float: right;
+	}
+	// Carousel
+	.carousel-indicators.vertical {
+			// margin-top: -80px;
+	    right: 20px;
+	    // top: 100%;
+	    // z-index: 999999999;
+	}
+	// Bios
+	#shatter, #triangle-mask {
+	    display: none;
+	}
+	.bios-main-container .display-contents {
+	    display: contents;
+	}
+	.bios-main-container .row.flex100vh {
+	    align-items: unset;
+	    flex-flow: row wrap;
+	    height: 100vh;
+	    margin-top: -80px;
+	    padding-top: 80px;
+	}
+	#shatter {
+		width: auto;
+	}
+	.bio-image {
+	    align-self: flex-end;
+	    bottom: 0;
+	    margin: 0 auto;
+	    order: 2;
+	    width: 50%;
+	}
+	.bio-image img {
+	    width: 100%;
+	}
+	.bio-heading {
+	    align-content: center;
+	    display: flex;
+	    flex-direction: row;
+	    margin-bottom: 10px;
+	    margin-top: 30px;
+	    order: 1;
+	    padding-right: 7px;
+	    width: 100%;
+	}
+	.bio-heading h1 {
+	    margin-bottom: 0;
+	}
+	.bio-heading small {
+	    margin-bottom: 20px;
+	}
+	.bio-content {
+	    display: flex;
+	    order: 2;
+	    padding: 0 35px 50px 15px;
+	    width: 100%;
+	}
+	#shatter {
+	    top: 0;
+	}
+	.carousel-indicators.horizontal {
+	    background: black none repeat scroll 0 0;
+	    border: 1px solid #ccc;
+	    border-radius: 2px;
+	    bottom: 0;
+	    display: block;
+	    left: 0;
+	    margin: 0 auto;
+	    position: fixed;
+	    right: 0;
+	    width: 100%;
+	}
+	// Alt rwd layout for bios
+	.header-nav, section {
+	    z-index: 3;
+	}
+
+	// .row.flex100vh {
+	//     display: block;
+	// }
+	// .col-xs-5.flex-end.bio-image {
+	//     position: absolute;
+	//     top: 33%;
+	// }
+	// .col-xs-7.flex-center.bio-content {
+	//     display: inline;
+	//     padding: 0;
+	//     width: 100%;
+	// }
+	// .bio-heading {
+	//     // background: gold none repeat scroll 0 0;
+	//     left: 0;
+	//     position: absolute;
+	//     width: 100%;
+	// }
+	// .bio-content p {
+	//     color: white;
+	//     font-weight: 100;
+	//     margin-top: 112px;
+	//     position: absolute;
+	//     right: 0;
+	//     width: 50%;
+	// }
+	main#portfolio {
+	    overflow: hidden;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	#portfolio .flex100vh {
+	    flex-flow: column wrap;
+	    height: 100vh;
+	    overflow: scroll;
+	    padding-top: 80px;
+	}
+		.portfolio-item {
+		    height: 100%;
+		    width: 100%
+		}
+	.secondary-header {
+		  border-bottom: 1px solid #ccc;
+	    position: fixed;
+	    width: 100%;
+	}
+	#logo {
+	    width: 50%;
+	}
+	.header-nav {
+	    width: 50%;
+	}
+	.header-navbar, .closebtn {
+	    display: none;
+	    width: 100%;
+	}
+	.open-nav .header-navbar,
+	.open-nav .closebtn {
+	    display: block;
+	}
+	.header-nav.open-nav {
+	    //background: gold none repeat scroll 0 0;
+	}
+	.open-nav .header-navbar {
+	    float: left;
+	    height: 100vh;
+	    margin-top: -80px;
+	    padding-top: 80px;
+	    position: absolute;
+	    right: -15px;
+	    top: 65px;
+	    width: 100%;
+	    z-index: 3;
+	}
+	ul.pull-right.list-inline {
+	    float: left !important;
+	    height: 100%;
+	    width: 100%;
+	}
+	// close button
+	.closebtn {
+	    // background: gold none repeat scroll 0 0;
+	    font-size: 24px;
+	    height: 100%;
+	    line-height: 1;
+	    padding: 0;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	    z-index: 2;
+	}
+	.header-nav .closebtn a {
+	    align-self: flex-end;
+	    display: table;
+	    left: 20px;
+	    line-height: 1.3;
+	    padding: 11.5px;
+	    width: auto;
+	}
+	// .open-nav .nav-close {
+	//     display: none;
+	// }
+	.nav-close {
+	    align-self: center;
+	    cursor: pointer;
+	    display: flex;
+	    justify-content: flex-end;
+	    width: 100%;
+	}
+	.open-nav .nav-close {
+			color: $brand;
+	    z-index: 1;
+	}
+	.open-nav ul.pull-right.list-inline {
+	    // background: teal none repeat scroll 0 0;
+	    display: table;
+	    height: 100%;
+	    margin-top: 29px;
+	    position: relative;
+	    width: 100%;
+	}
+	.open-nav .list-inline li {
+	    border-bottom: 1px solid #ccc;
+	    display: block;
+	    padding: 0;
+	}
+	.container.header-container {
+	    width: 100%;
+	}
+	.container.header-navbar-container {
+	    border-left: 1px solid #ccc;
+	    height: 100%;
+	    padding: 0;
+	    background: white;
+	}
+	.header-navbar ul {
+	    display: flex;
+	    flex-direction: column;
+	    float: right;
+	    height: 100%;
+	    padding: 15px 0;
+	    margin: -15px 0 0 0;
+	    position: relative;
+	    top: 0;
+	    width: 100%;
+	}
+	.container.nav-container {
+	    // align-items: unset;
+	    display: flex;
+	    width: 100%;
+	}
+	// Cover
+	.open-nav .header-navbar.cover {
+	    background: #fff;
+	    float: left;
+	    height: 100vh;
+	    left: 0;
+	    margin-top: 80px;
+	    padding-top: 80px;
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	    z-index: 3;
+	}
+	.header-navbar.cover ul {
+	   // background: teal none repeat scroll 0 0;
+	    display: flex;
+	    flex-direction: column;
+	    float: right;
+	    height: 100%;
+	    margin-top: -80px;
+	    padding-top: 80px;
+	    position: absolute;
+	    text-align: center;
+	    width: 100%;
+	}
+	.header-nav a {
+	    display: block;
+	    padding: 20px;
+	}
+	.header-nav .header-navbar a {
+		    display: block;
+		    padding: 23px 20px 20px;
+		}
+	// Home Main Container
+	main.home-main-container {
+	    height: 100vh;
+	    min-height: 400px;
+	}
+	.container .jumbotron, .container-fluid .jumbotron {
+	    margin: 0 auto;
+	    padding: 0 25px;
+	}
+	// flex100vh
+	.row.flex100vh {
+	    padding-top: 160px;
+	    height: auto;
+	}
+	// services
+	.services-main-container .upper-row {
+	    margin-bottom: 20px;
+	    padding-right: 70px;
+	}
+	.container.lower-row {
+	    padding-right: 70px;
+	}
+	.services-main-container .lower-row {
+	    align-items: center;
+	    flex-direction: column;
+	}
+	.col-sm-4.service-icons {
+	    margin-bottom: 3px;
+	    // min-width: 75%;
+	}
+	.service-icons .thumbnail {
+	    width: 140px;
+	}
+	// contact
+	#lets-talk-turkey {
+	    // background: gold none repeat scroll 0 0;
+	    display: table;
+	    order: 1;
+	    position: relative;
+	    width: 100%;
+	}
+	#lets-talk-turkey h1 {
+	  margin: 0;
+	}
+	main#contact-page {
+		height: auto;
+		margin-top: 0;
+    min-height: 100vh;
+		padding-top: 122px;
+		z-index: 1;
+	}
+	#contact-page section {
+    height: auto;
+    min-height: 466px;
+}
+	#contact-form {
+	    margin-top: 32px;
+	    order: 2;
+	    padding-left: 0;
+	    padding-right: 0;
+	    position: relative;
+	}
+	.contact-page .content .container.content-container {
+	    height: auto;
+	}
+	#contact-form .btn-primary {
+	    float: right;
+	    margin-right: 15px;
+	}
+	#contact-info {
+	    display: table;
+	    order: 3;
+	    width: 100%;
+	}
+	.left-side, .right-side {
+	    width: 100%;
+	}
+	// Form
+	.form-inline {
+	    margin-bottom: 5px;
+	}
+	// icon list
+	ul.icons-list {
+	    padding: 30px 0;
+	}
+	//Iframe map
+	iframe#map {
+	    display: table;
+	    height: auto;
+	    min-height: auto;
+	    width: 100%;
+	}
+
+}
+// End (max-width: $screen-xs-max)
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.portfolio-item {
+	    width: 50%;
+	}
+	.bios-main-container .display-contents {
+	    margin-left: 3.75%;
+	}
+	.display-contents-wrap {
+	  padding-right: 33px;
+	  width: auto;
+	}
+//hack for pull left being a child that it is not
+	.display-contents-wrap.pull-left {
+	    margin-left: -3.75%;
+	    padding-right: 0;
+	}
+//make this not so specific in the future.
+	#vivian-bio-image.bio-image {
+		padding-right: 33px;
+	}
+	.bio-image {
+	    width: 50%;
+	}
+	.bio-heading {
+	    margin-bottom: 10px;
+	}
+}
+// End (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+	.bios-main-container .display-contents {
+	    margin-left: 7.25%;
+	}
+	.bio-heading {
+	    margin-bottom: 20px;
+	}
+}
+// End (min-width: $screen-md-min) and (max-width: $screen-md-max)
+@media (min-width: $screen-lg-min) {
+
+}
+@media (min-width: 1585px) {
+	.bio-image img {
+	    display: block;
+	    height: auto;
+	    margin: 0 auto;
+	    width: auto;
+	}
+}
+
+
